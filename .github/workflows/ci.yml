@@ -2,9 +2,12 @@ name: Python tests
 
 on:
   push:
-    branches: [ "main" ]
+    branches: 
+      - main
   pull_request:
-    branches: [ "main" ]
+    branches: 
+      - main
+      - Mohammed/CI
 
 jobs: 
   test:
